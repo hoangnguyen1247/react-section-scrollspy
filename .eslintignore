@@ -1,0 +1,12 @@
+**/node_modules/*
+**/out/*
+**/.next/*
+**/dist/*
+
+**/examples/**/*
+**/types/*
+types.d.ts
+
+dist
+lib
+react-web-simple-widgets
