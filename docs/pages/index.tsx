@@ -26,6 +26,7 @@ const Home: NextPage = () => {
                 }}>
                     {items.map((i, index) => (
                         <Button
+                            key={index}
                             onClick={() => {
                                 sectionScrollspyRef?.current?.tabClick({
                                     index: index,

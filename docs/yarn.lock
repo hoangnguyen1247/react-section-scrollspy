@@ -1823,10 +1823,10 @@ react-is@^17.0.2:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-section-scrollspy@1.0.1-develop.2:
-  version "1.0.1-develop.2"
-  resolved "https://registry.yarnpkg.com/react-section-scrollspy/-/react-section-scrollspy-1.0.1-develop.2.tgz#5a8f9b1893035ac409f74214f761ec536f819d2f"
-  integrity sha512-Czq9L/Et+hLS7uMbAnLZauKf8vmHg9QFrf6YC6yNaY+APGWuxZdIn6euPbWQtLLgoWl1QNsXyEgkEPPavzPMdw==
+react-section-scrollspy@1.0.1-develop.3:
+  version "1.0.1-develop.3"
+  resolved "https://registry.yarnpkg.com/react-section-scrollspy/-/react-section-scrollspy-1.0.1-develop.3.tgz#96b02dbbf577796d6ef369130b8d79f685da7e06"
+  integrity sha512-h1YJEJ3IZdqWrsRncdScSFmp6pMf6VaZAKqngwL0FgASgseI4mfvNG/JDy8t0Tpu9IDV4OB6Z5Qvx7DGxunDag==
 
 react-transition-group@^4.4.2:
   version "4.4.2"

@@ -19,7 +19,7 @@
         "next": "latest",
         "react": "latest",
         "react-dom": "latest",
-        "react-section-scrollspy": "1.0.1-develop.2"
+        "react-section-scrollspy": "1.0.1-develop.3"
     },
     "devDependencies": {
         "@types/node": "latest",
