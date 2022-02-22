@@ -18,7 +18,12 @@ const Home: NextPage = () => {
     return (
         <Container maxWidth="lg">
             <div>
-                <div style={{ height: "160px", overflow: "hidden" }}>
+                <div style={{ 
+                    height: "160px", 
+                    overflow: "hidden",
+                    position: "sticky",
+                    top: 0,
+                }}>
                     {items.map((i, index) => (
                         <Button
                             onClick={() => {
@@ -40,7 +45,7 @@ const Home: NextPage = () => {
                             key={index}
                             {...props}
                             style={{
-                                height: 160,
+                                height: 560,
                                 // border: "1px solid green",
                                 margin: "0 6",
                                 padding: "0 8",
@@ -52,7 +57,7 @@ const Home: NextPage = () => {
                     onSectionChange={handleSectionChange}
                     headerOffset={160}
                 />
-                <div style={{ height: "200px", overflow: "hidden" }}>
+                <div style={{ height: "300px", overflow: "hidden" }}>
                 </div>
             </div>
         </Container>

@@ -45,7 +45,7 @@ const SectionScrollspy = ({
             document
                 .querySelectorAll(`.${sectionClassName}`)
                 .forEach((item: any, index) => {
-                    if (window.scrollY + headerOffset > item.offsetTop) {
+                    if (window.scrollY + headerOffset >= item.offsetTop) {
                         indexTemp = index;
                     }
                 });
