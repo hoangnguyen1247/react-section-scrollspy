@@ -45,7 +45,7 @@ const SectionScrollspy = ({
             document
                 .querySelectorAll(`.${sectionClassName}`)
                 .forEach((item: any, index) => {
-                    if (window.scrollY + headerOffset > item.offsetTop) {
+                    if (window.scrollY + headerOffset >= item.offsetTop) {
                         indexTemp = index;
                     }
                 });
@@ -71,12 +71,12 @@ const SectionScrollspy = ({
     }, []);
 
     return (
-        <>
+        <React.Fragment>
             {sections.map((item, index) => renderSection({
                 ...item,
                 className: `${sectionClassName} ${sectionClassName}_${index}`,
             }, index))}
-        </>
+        </React.Fragment>
     );
 };
 
