@@ -71,12 +71,12 @@ const SectionScrollspy = ({
     }, []);
 
     return (
-        <>
+        <React.Fragment>
             {sections.map((item, index) => renderSection({
                 ...item,
                 className: `${sectionClassName} ${sectionClassName}_${index}`,
             }, index))}
-        </>
+        </React.Fragment>
     );
 };
 

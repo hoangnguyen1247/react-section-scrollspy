@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "baseUrl": ".",
+        "baseUrl": "./src",
         "paths": {},
         "target": "es5",
         "lib": [
@@ -9,6 +9,7 @@
             "esnext"
         ],
         "outDir": "lib",
+        "sourceMap": false,
         "allowJs": true,
         "skipLibCheck": true,
         "strict": false,
@@ -24,7 +25,10 @@
     },
     "exclude": [
         "node_modules",
-        "lib"
+        "lib",
+        "docs",
+        "react-section-scrollspy",
+        "CopyAndSyncSrc.js"
     ],
     "include": [
         "next-env.d.ts",
